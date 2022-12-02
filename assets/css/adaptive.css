@@ -30,6 +30,10 @@
     .nav__open {
         display: none;
     }
+    .row {
+        display: flex;
+        gap: 0;
+    }
     .col {
         width: 50%;
     }

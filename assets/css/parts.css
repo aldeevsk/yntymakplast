@@ -107,6 +107,12 @@ main {
     font-size: 20px;
 }
 
+.row {
+    display: grid;
+    gap: 10px;
+    text-align: center;
+}
+
 
 
 
