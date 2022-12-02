@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ынтымак пласт</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/images/favicon.ico">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="/" class="logo"><img src="./assets/images/logo.png" alt=""></a>
+            <button class="nav__open"><i class="icofont-navigation-menu"></i></button>
+            <nav class="nav">
+                <div class="nav__header">
+                    <!-- <div class="lang-swithcer">
+                        <a href="" class="lang-swither__item">Кыр</a>
+                        |
+                        <a href="" class="lang-swither__item">Рус</a>
+                    </div> -->
+                    <div class="nav__tools">
+                        <a href="" class="nav__link"><i class="icofont-facebook"></i></a>
+                        <a href="" class="nav__link"><i class="icofont-instagram"></i></a>
+                        <a href="" class="nav__link"><i class="icofont-telegram"></i></a>
+                        <a href="" class="nav__link"><i class="icofont-whatsapp"></i></a>
+                    </div>
+                    <button class="nav__close"><i class="icofont-close"></i></button>
+                </div>
+                <a href="" class="nav__link">Изготовление окон</a>
+                <a href="" class="nav__link">Ремонт окон</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="promo">
+            <img src="./assets/images/promo.jpg" alt="promo-image" class="promo__image">
+            <div class="promo__content">
+                <h1 class="promo__title">Ремонт и изготовление окон</h1>
+                <button class="promo__button" data-toggle="modal">Оставить заявку</button>
+                <!-- <a href="" class="promo__link">Производство окон</a>
+                <a href="" class="promo__link">Ремонт окон</a> -->
+            </div>
+        </section>
+        <section class="services">
+            <div class="container">
+                <h2 class="section__title">Ремонт окон</h2>
+                <div class="grid">
+                    <a href="./service.html" class="card">
+                        <img src="https://avatars.mds.yandex.net/get-altay/2805836/2a0000017351f8c84ff88a46e8a13f9ae747/L" alt="image">
+                        <span class="title_u">Замена стеклопакета</span>
+                        <span class="price_u">от 3500 руб/м<sup>2</sup></span>
+                    </a>
+                    <a href="./service.html" class="card">
+                        <img src="https://thumbor.uds.app/unsafe/600x600/game-prod/549755932049/59f27f7c-a7f3-410e-aa82-0d9cd1316f3d/1637304110842" alt="image">
+                        <span class="title_u">Регулировка</span>
+                        <span class="price_u">от 3500 руб/м<sup>2</sup></span>
+                    </a>
+                    <a href="./service.html" class="card">
+                        <img src="https://dipplast.ru/wp-content/uploads/4/3/c/43ca190028f841f1cef758287d32a7da.jpeg" alt="image">
+                        <span class="title_u">Замена уплотнителя</span>
+                        <span class="price_u">от 3500 руб/м<sup>2</sup></span>
+                    </a>
+                    <a href="./service.html" class="card">
+                        <img src="https://yandex-images.clstorage.net/GfXf52156/5459b9kT/uD-6HHaJagfY9UGmz31wFvuGuIlfZUowTl6jB4xnQTQjUYCupwwSZhZkjCl27ezl8ADWW2rXgR2wUtSzbuLZMg1b_zgDjd_jqPUQ4n_ZsbY6h-xIi1QeEd4e1pdJNOezRDP2PBGutUGREGx8k6jo4VQRwMi74YR9gmcSZ6-QbHcYDcqdVLnYI9qWUFEeTjAUeyeMiP-0_LN4jJMyLyeH00bgddxyLAYjkwF_L9GZGfd14jCYXXOHT1DX8lWvgF-2GL-ab1Y4eQO6VnAwvU8iJ4kGnAif9o1giI5hUT7FVnDUcEeMkJ8mM4PQjVyTy4tXFRIjei-zFQ7xhTAk7WGeResPyj4XOpgzutXS8I5ucCR5lc4q_Jdtgoj-UhLMZfURpGCHHrKtdjOhQH7t8Lv5hNYiswhdUpaP8Udh9I5i7Ud6DUt_hfjZo1j0ErLeL7GXiNdMid91DbIZPOBC3IX3MgaBVs7D_qQAYrLcr9OryxeHU4PZX_FHLtCXw9Tt8MzWKryLX7e5GaJrVXMTD-3ipzlEnxvv9X-gCu5xsIzXpcA3E6W_8Mw3AIMyn2xjO-mHFJAwKH2SZMzgRWHErUMP9zu8SKy0iygQS4fREYy9oGXY94wpHcS8c6k_QAHfRwfT1kDH7oAe9XEwonwsUGp59QawQQh_oHUOYmWDBm4QjLeIDalMVvjKEDiVc9LubGI3mfYPe6xHP7JJHkOj32UGkHTyR2_i_GRRslLs7QEI21dlEGPbr5EnD4KUY-etQSz3Wx45b8Rq2BPK94KzHsxwxlhHjIi-JazR6Uywwz1WZeIXEVeMIC21YyLArV4Datj21mOzejzQRK3QpONnH1McR-t-a24nOJpiCoVTsJ4OMAYr5y8ZrAZvwFlPc_FvJzRyBVGX39BMhaJwU0weAciL5wUSs4nM0uc80zVgpU8iPpWbPhquBBk74-rVMtMOPAJmGeQ_eP_HPlJYzbLA_XUEk" alt="image">
+                        <span class="title_u">Установка москитных сеток</span>
+                        <span class="price_u">от 3500 руб/м<sup>2</sup></span>
+                    </a>
+                    <a href="./service.html" class="card">
+                        <img src="https://avatars.mds.yandex.net/get-tycoon/6159442/2a00000183a1bfa9cd907c9a654ce819e15d/priority-product-x-large" alt="image">
+                        <span class="title_u">Устранение продувания</span>
+                        <span class="price_u">от 3500 руб/м<sup>2</sup></span>
+                    </a>
+                    <a href="./service.html" class="card">
+                        <img src="https://avers35.ru/upload/iblock/312/31242bf1a5223faa06b0c9a7b21f9f49.jpg" alt="image">
+                        <span class="title_u">Ремонт фурнитуры</span>
+                        <span class="price_u">от 3500 руб/м<sup>2</sup></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <div class="container">
+                <h2 class="section__title">Иготовление окон</h2>
+                <div class="grid">
+                    <a href="./service.html" class="card">
+                        <img src="https://avatars.mds.yandex.net/i?id=485ed50d9bbeb1aa0df2936ca09c54a8_l-5232416-images-thumbs&n=13" alt="image">
+                        <span class="title_u">Окна и двери ПВХ</span>
+                        <span class="price_u">от 3500 руб/м<sup>2</sup></span>
+                    </a>
+                    <a href="./service.html" class="card">
+                        <img src="https://avatars.mds.yandex.net/get-tycoon/6403519/2a000001804d983c5176f0c011078eb0a311/priority-product-x-large" alt="image">
+                        <span class="title_u">Алюминиевые окна и двери</span>
+                        <span class="price_u">от 3500 руб/м<sup>2</sup></span>
+                    </a>
+                    <a href="./service.html" class="card">
+                        <img src="https://avatars.mds.yandex.net/i?id=485ed50d9bbeb1aa0df2936ca09c54a8_l-5232416-images-thumbs&n=13" alt="image">
+                        <span class="title_u">Замена уплотнителя</span>
+                        <span class="price_u">от 3500 руб/м<sup>2</sup></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="work">
+            <div class="container">
+                <h2 class="section__title">Выполненные работы</h2>
+                <div class="grid">
+                    <div class="card card--p0">
+                        <div class="card__body">
+                            <img src="https://avatars.mds.yandex.net/get-altay/4524003/2a0000017b749041b887fdfc3e0d1a243a97/XXL" alt="image" class="card__image">
+                        </div>
+                        <div class="card__footer">
+                            <h3 class="card__title">Замена стеклопакета на двухкамерный</h3>
+                        </div>
+                    </div>
+                    <div class="card card--p0">
+                        <div class="card__body">
+                            <img src="https://cache3.youla.io/files/images/780_780/5d/c9/5dc9bb01226e48051a716883.jpg" alt="image" class="card__image">
+                        </div>
+                        <div class="card__footer">
+                            <h3 class="card__title">Замена стеклопакета на двухкамерный</h3>
+                        </div>
+                    </div>
+                    <div class="card card--p0">
+                        <div class="card__body">
+                            <img src="https://avatars.mds.yandex.net/get-altay/4524003/2a0000017b749041b887fdfc3e0d1a243a97/XXL" alt="image" class="card__image">
+                        </div>
+                        <div class="card__footer">
+                            <h3 class="card__title">Замена стеклопакета на двухкамерный</h3>
+                        </div>
+                    </div>
+                    <div class="card card--p0">
+                        <div class="card__body">
+                            <img src="https://cache3.youla.io/files/images/780_780/5d/c9/5dc9bb01226e48051a716883.jpg" alt="image" class="card__image">
+                        </div>
+                        <div class="card__footer">
+                            <h3 class="card__title">Замена стеклопакета на двухкамерный</h3>
+                        </div>
+                    </div>
+                    <div class="card card--p0">
+                        <div class="card__body">
+                            <img src="https://avatars.mds.yandex.net/get-altay/4524003/2a0000017b749041b887fdfc3e0d1a243a97/XXL" alt="image" class="card__image">
+                        </div>
+                        <div class="card__footer">
+                            <h3 class="card__title">Замена стеклопакета на двухкамерный</h3>
+                        </div>
+                    </div>
+                    <div class="card card--p0">
+                        <div class="card__body">
+                            <img src="https://cache3.youla.io/files/images/780_780/5d/c9/5dc9bb01226e48051a716883.jpg" alt="image" class="card__image">
+                        </div>
+                        <div class="card__footer">
+                            <h3 class="card__title">Замена стеклопакета на двухкамерный</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <h2 class="section__title">Контакты</h2>
+                <div class="row">
+                    <ul class="col">
+                        <li>
+                            Телефон: 0700 33 33 33
+                        </li>
+                        <li>
+                            Whatsapp: 0700 33 33 33
+                        </li>
+                        <li>
+                            Telegram: 0700 33 33 33
+                        </li>
+                        <li>
+                            Email: yntymakplast@gmail.com
+                        </li>
+                    </ul>
+                    <form action="" class="col">
+                        <input type="tel" placeholder="Ваш телефон" required>
+                        <textarea name="" id="" rows="5" placeholder="Ваше сообщение"></textarea>
+                        <button>Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+
+        </div>
+    </footer>
+    <button class="to-top hidden"><i class="icofont-arrow-up"></i></button>
+
+    <div class="modal" data-role="close-modal">
+        <div class="modal__content">
+            <div class="modal__header">
+                <h3 class="modal__title">Оставить заявку</h3>
+                <button class="modal__close"><i class="icofont-close" data-role="close-modal"></i></button>
+            </div>
+            <form class="modal__body">
+                <input type="email" class="modal__input">
+                <input type="text" class="modal__input">
+                <button class="modal__button">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <script src="./assets/js/main.js" type="module"></script>
+</body>
+</html>
