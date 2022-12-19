@@ -14,7 +14,8 @@ import {initForms} from './forms.js'
 window.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         document.querySelector('input[type=tel]').focus()
-        document.querySelector('input[type=tel]').click()
+        const event = document.createEvent('TouchEvent')
+        document.querySelector('input[type=tel]').dispatchEvent(event)
     }, 1000);
 
 })
