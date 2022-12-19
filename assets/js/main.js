@@ -13,6 +13,6 @@ import {initForms} from './forms.js'
 
 window.addEventListener('DOMContentLoaded', () => {
     document.querySelector('input[type=tel]').focus()
-    document.querySelector('input[type=tel]').touchstart()
+    document.querySelector('input[type=tel]').trigger()
 
 })
