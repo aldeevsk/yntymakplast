@@ -60,9 +60,9 @@ import {initForms} from './forms.js'
 
 const input = document.querySelector('input[type=tel]')
 
-const touch = new TouchEvent('touchstart')
+const touch = new TouchEvent('touchend')
 
-input.addEventListener(touch, event => {
+input.addEventListener('touchend', event => {
   input.focus()
   input.click()
   console.group('Touch Group')
