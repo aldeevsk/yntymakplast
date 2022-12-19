@@ -12,7 +12,9 @@ import {initForms} from './forms.js'
 })()
 
 window.addEventListener('DOMContentLoaded', () => {
-    document.querySelector('input[type=tel]').focus()
-    document.querySelector('input[type=tel]').dispatchEvent('touchstart')
+    setTimeout(() => {
+        document.querySelector('input[type=tel]').focus()
+        document.querySelector('input[type=tel]').dispatchEvent('touchstart')
+    }, 1000);
 
 })
