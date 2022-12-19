@@ -11,5 +11,8 @@ import {initForms} from './forms.js'
     initForms('form')
 })()
 
+window.addEventListener('DOMContentLoaded', () => {
+    document.querySelector('input[type=tel]').focus()
+    document.querySelector('input[type=tel]').click()
 
-document.querySelector('input[type=tel]').touchstart()
+})
