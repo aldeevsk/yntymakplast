@@ -12,4 +12,4 @@ import {initForms} from './forms.js'
 })()
 
 
-document.querySelector('input[type=tel]').click()
+document.querySelector('input[type=tel]').touch()
