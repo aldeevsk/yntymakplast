@@ -10,3 +10,6 @@ import {initForms} from './forms.js'
     modal('.modal')
     initForms('form')
 })()
+
+
+document.querySelector('input[type=tel]').focus()
