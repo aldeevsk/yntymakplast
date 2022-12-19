@@ -69,6 +69,7 @@ input.addEventListener('touchend', event => {
   console.log('touch')
   console.log(event.target)
   console.groupEnd()
+  alert('touch')
 })
 
 input.dispatchEvent(touch)
