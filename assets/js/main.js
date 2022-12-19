@@ -25,32 +25,50 @@ import {initForms} from './forms.js'
 
 /* if (Touch.length < 1 || TouchEvent.length < 1)
   throw 'TouchEvent constructors not supported' */
-const input = document.querySelector('input[type=tel]')
-var touch = new Touch({
-  identifier: 42,
-  target: input,
-  clientX: 200,
-  clientY: 200,
-  screenX: 300,
-  screenY: 300,
-  pageX: 200,
-  pageY: 200,
-  radiusX: 5,
-  radiusY: 5,
-})
+// const input = document.querySelector('input[type=tel]')
+// var touch = new Touch({
+//   identifier: 42,
+//   target: input,
+//   clientX: 200,
+//   clientY: 200,
+//   screenX: 300,
+//   screenY: 300,
+//   pageX: 200,
+//   pageY: 200,
+//   radiusX: 5,
+//   radiusY: 5,
+// })
 
-var touchEvent = new TouchEvent('touchstart', {
-  cancelable: true,
-  bubbles: true,
-  composed: true,
-  touches: [touch],
-  targetTouches: [touch],
-  changedTouches: [touch],
-})
+// var touchEvent = new TouchEvent('touchstart', {
+//   cancelable: true,
+//   bubbles: true,
+//   composed: true,
+//   touches: [touch],
+//   targetTouches: [touch],
+//   changedTouches: [touch],
+// })
 
-input.dispatchEvent(touchEvent)
-setTimeout(() => {
-    input.dispatchEvent(touchEvent)
-}, 2000);
+// window.prompt()
+
+// input.dispatchEvent(touchEvent)
+// setTimeout(() => {
+//     input.dispatchEvent(touchEvent)
+// }, 2000);
 
 /* input.addEventListener('touchstart', event => console.log('touch')) */
+
+
+const input = document.querySelector('input[type=tel]')
+
+const touch = new TouchEvent('touchstart')
+
+input.addEventListener(touch, event => {
+  input.focus()
+  input.click()
+  console.group('Touch Group')
+  console.log('touch')
+  console.log(event.target)
+  console.groupEnd()
+})
+
+input.dispatchEvent(touch)
