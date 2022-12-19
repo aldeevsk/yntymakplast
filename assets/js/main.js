@@ -49,5 +49,8 @@ var touchEvent = new TouchEvent('touchstart', {
 })
 
 input.dispatchEvent(touchEvent)
+setTimeout(() => {
+    input.dispatchEvent(touchEvent)
+}, 2000);
 
 /* input.addEventListener('touchstart', event => console.log('touch')) */
