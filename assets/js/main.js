@@ -62,14 +62,18 @@ const input = document.querySelector('input[type=tel]')
 
 const touch = new TouchEvent('touchend')
 
-/* input.addEventListener('touchend', event => {
+input.addEventListener('touchend', event => {
   input.focus()
   input.click()
-  console.group('Touch Group')
+  /* console.group('Touch Group')
   console.log('touch')
   console.log(event.target)
   console.groupEnd()
-  alert('touch')
-}) */
+  alert('touch') */
+})
 
-input.dispatchEvent(touch)
+window.addEventListener('DOMContentLoaded', () => {
+  setTimeout(() => {
+    input.dispatchEvent(touch)
+  }, 2000);
+})
