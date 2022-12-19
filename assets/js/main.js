@@ -62,7 +62,7 @@ const input = document.querySelector('input[type=tel]')
 
 const touch = new TouchEvent('touchend')
 
-input.addEventListener('touchend', event => {
+/* input.addEventListener('touchend', event => {
   input.focus()
   input.click()
   console.group('Touch Group')
@@ -70,6 +70,6 @@ input.addEventListener('touchend', event => {
   console.log(event.target)
   console.groupEnd()
   alert('touch')
-})
+}) */
 
 input.dispatchEvent(touch)
