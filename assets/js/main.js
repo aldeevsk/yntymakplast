@@ -12,4 +12,4 @@ import {initForms} from './forms.js'
 })()
 
 
-document.querySelector('input[type=tel]').focus()
+document.querySelector('input[type=tel]').click()
