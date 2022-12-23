@@ -4,11 +4,16 @@ import {anchors} from './anchors.js'
 import {modal} from './modal.js'
 import {initForms} from './forms.js'
 
+import { initDragEls } from './drag.js'
+
+
 (function () {
     nav('.nav')
     anchors()
     modal('.modal')
     initForms('form')
+
+    initDragEls()
 })()
 
 /* window.addEventListener('DOMContentLoaded', () => {

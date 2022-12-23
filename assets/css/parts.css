@@ -6,6 +6,7 @@
     z-index: 8;
     background: var(--white);
     border-bottom: 1px solid var(--grey);
+    background-image: linear-gradient( 45deg, hsl(0deg 0% 100%) 0%, hsl(201deg 55% 96%) 11%, hsl(201deg 55% 92%) 22%, hsl(201deg 55% 87%) 33%, hsl(200deg 56% 83%) 44%, hsl(200deg 56% 79%) 56%, hsl(199deg 56% 74%) 67%, hsl(199deg 57% 70%) 78%, hsl(198deg 57% 65%) 89%, hsl(198deg 58% 60%) 100% );
 }
 .header .container {
     display: flex;
@@ -25,7 +26,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background: var(--white);
+    background: transparent;
     padding: 20px;
     transform: translateX(100%);
     -webkit-transform: translateX(100%);
@@ -138,9 +139,16 @@ main {
 
 .footer {
     flex-shrink: 0;
-    background: #000;
-    height: 60px;
+    background: var(--primary);
     width: 100%;
+    padding: 20px 0;
+}
+.footer .logo {
+    display: block;
+    background: var(--white);
+    padding: 0;
+    height: 100px;
+    width: 100px;
 }
 .to-top {
     position: fixed;

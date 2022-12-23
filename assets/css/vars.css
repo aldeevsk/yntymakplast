@@ -1,6 +1,7 @@
 :root {
-    --primary: rgb(24, 118, 242);
-    --primary-opacity: rgba(24, 118, 242, 0.2);
+    --primary: #5CB1D4;
+    --primary-opacity: rgba(92, 176, 212, 0.2);
+    --accent: teal;
     --black: #000;
     --black-opacity: rgba(0, 0, 0, 0.5);
     --white: #fff;

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ынтымак пласт</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/images/favicon.ico">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="/" class="logo"><img src="./assets/images/logo.png" alt=""></a>
+            <button class="nav__open"><i class="icofont-navigation-menu"></i></button>
+            <nav class="nav">
+                <div class="nav__header">
+                    <!-- <div class="lang-swithcer">
+                        <a href="" class="lang-swither__item">Кыр</a>
+                        |
+                        <a href="" class="lang-swither__item">Рус</a>
+                    </div> -->
+                    <div class="nav__tools">
+                        <a href="" class="nav__link"><i class="icofont-facebook"></i></a>
+                        <a href="" class="nav__link"><i class="icofont-instagram"></i></a>
+                        <a href="" class="nav__link"><i class="icofont-telegram"></i></a>
+                        <a href="" class="nav__link"><i class="icofont-whatsapp"></i></a>
+                    </div>
+                    <button class="nav__close"><i class="icofont-close"></i></button>
+                </div>
+                <a href="" class="nav__link">Изготовление окон</a>
+                <a href="./service.html" class="nav__link">Ремонт окон</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="promo">
+            <img src="./assets/images/promo.jpg" alt="promo-image" class="promo__image">
+            <div class="promo__content">
+                <h1 class="promo__title">Ремонт и изготовление окон</h1>
+                <button class="promo__button" data-toggle="modal">Оставить заявку</button>
+                <!-- <a href="" class="promo__link">Производство окон</a>
+                <a href="" class="promo__link">Ремонт окон</a> -->
+            </div>
+        </section>
+        <section class="services">
+            <div class="container">
+                <h2 class="section__title">Ремонт окон</h2>
+                <div class="row-2">
+                    <div class="col" dropzone="move">
+                        <div class="badge" draggable="true">
+                            <h3 class="badge__title">Замена стеклопакета</h3>
+                        </div>
+                        <div class="badge" draggable="true">
+                            <h3 class="badge__title">Регулировка</h3>
+                        </div>
+                        <div class="badge" draggable="true">
+                            <h3 class="badge__title">Замена уплотнителя</h3>
+                        </div>
+                        <div class="badge" draggable="true">
+                            <h3 class="badge__title">Установка москитных сеток</h3>
+                        </div>
+                        <div class="badge" draggable="true">
+                            <h3 class="badge__title">Устранение продувания</h3>
+                        </div>
+                        <div class="badge" draggable="true">
+                            <h3 class="badge__title">Ремонт фурнитуры</h3>
+                        </div>
+                    </div>
+                    <div class="col" dropzone="move">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <h2 class="section__title">Контакты</h2>
+                <div class="row">
+                    <ul class="col">
+                        <li>
+                            Телефон: 0700 33 33 33
+                        </li>
+                        <li>
+                            Whatsapp: 0700 33 33 33
+                        </li>
+                        <li>
+                            Telegram: 0700 33 33 33
+                        </li>
+                        <li>
+                            Email: yntymakplast@gmail.com
+                        </li>
+                    </ul>
+                    <form action="" class="col">
+                        <input type="tel" placeholder="Ваш телефон" autofocus required>
+                        <textarea name="" id="" rows="5" placeholder="Ваше сообщение"></textarea>
+                        <button>Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <a href="/" class="logo">
+                <img src="./assets/images/logo.png" alt="">
+            </a>
+        </div>
+    </footer>
+    <button class="to-top hidden"><i class="icofont-arrow-up"></i></button>
+
+    <div class="modal" data-role="close-modal">
+        <div class="modal__content">
+            <div class="modal__header">
+                <h3 class="modal__title">Оставить заявку</h3>
+                <button class="modal__close"><i class="icofont-close" data-role="close-modal"></i></button>
+            </div>
+            <form class="modal__body">
+                <input type="email" class="modal__input">
+                <input type="text" class="modal__input">
+                <button class="modal__button">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <script src="./assets/js/main.js" type="module"></script>
+</body>
+
+</html>
