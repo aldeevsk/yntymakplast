@@ -1,10 +1,13 @@
 :root {
     --primary: #5CB1D4;
+    --primary-darken: #0277bd;
     --primary-opacity: rgba(92, 176, 212, 0.2);
-    --accent: teal;
+    --accent: #90a4ae;
+    --accent-half: rgba(144, 164, 174, 0.5);
     --black: #000;
-    --black-opacity: rgba(0, 0, 0, 0.5);
+    --black-half: rgba(0, 0, 0, 0.5);
     --white: #fff;
+    --white-half: rgba(255, 255, 255, 0.5);
     --grey: #ccc;
 
     --header-h: 100px;

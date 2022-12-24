@@ -3,7 +3,7 @@ import {nav} from './nav.js'
 import {anchors} from './anchors.js'
 import {modal} from './modal.js'
 import {initForms} from './forms.js'
-
+import { initSliders } from './sliders.js'
 import { initDragEls } from './drag.js'
 
 
@@ -12,6 +12,7 @@ import { initDragEls } from './drag.js'
     anchors()
     modal('.modal')
     initForms('form')
+    initSliders()
 
     initDragEls()
 })()

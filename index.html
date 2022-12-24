@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ынтымак пласт</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="./assets/images/favicon.ico">
 </head>
@@ -35,13 +36,40 @@
         </div>
     </header>
     <main>
-        <section class="promo">
+        <!-- <section class="promo">
             <img src="./assets/images/promo.jpg" alt="promo-image" class="promo__image">
             <div class="promo__content">
                 <h1 class="promo__title">Ремонт и изготовление окон</h1>
                 <button class="promo__button" data-toggle="modal">Оставить заявку</button>
-                <!-- <a href="" class="promo__link">Производство окон</a>
-                <a href="" class="promo__link">Ремонт окон</a> -->
+            </div>
+        </section> -->
+        <section class="promo">
+            <div class="promo__slider slider" data-items="1" data-axis="vertical" data-gutter="0">
+                <div class="slides">
+                    <div class="slide">
+                        <img src="./assets/images/promo.jpg"
+                            alt="">
+                        <h2 class="promo__slide-title">Ремонт окон и дверей в Бишкеке</h2>
+                    </div>
+                    <div class="slide">
+                        <img src="https://idei.club/uploads/posts/2022-02/1645253885_33-idei-club-p-tsvetnie-alyuminievie-okna-interer-krasivo-50.jpg" alt="">
+                        <p class="promo__slide-title">Ремонт окон и дверей в Бишкеке</p>
+                    </div>
+                    <div class="slide">
+                        <img src="https://www.fabrikaokon.ru/assets/static/pages/main/img.v2/works/works02.jpg" alt="">
+                        <p class="promo__slide-title">Ремонт окон и дверей в Бишкеке</p>
+                    </div>
+                </div>
+                <div class="slider__buttons">
+                    <button class="slider__button prev">←</button>
+                    <button class="slider__button next">→</button>
+                    <div class="slider__nav"></div>
+                </div>
+            </div>
+            <div class="promo__content">
+                <div class="container">
+                    <h1 class="promo__title">Ремонт и производство <br> окон в бишкеке</h1>
+                </div>
             </div>
         </section>
         <section class="services">
@@ -245,6 +273,7 @@
             </form>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="./assets/js/main.js" type="module"></script>
 </body>
 </html>
