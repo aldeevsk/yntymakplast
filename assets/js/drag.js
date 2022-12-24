@@ -2,15 +2,13 @@ export function initDragEls() {
   const targetBox = document.querySelector('.row-2 .col:last-child')
   const srcBox = document.querySelector('.row-2 .col:first-child')
   
-  console.log(srcBox.offsetTop, srcBox.offsetHeight, srcBox.offsetLeft, srcBox.offsetWidth)
+  /* console.log(srcBox.offsetTop, srcBox.offsetHeight, srcBox.offsetLeft, srcBox.offsetWidth) */
   /* console.log(srcBox.offsetTop, srcBox.offsetHeight) */
 
   document.addEventListener('dragend', event => {
-    console.log(event.target)
     if(!event.target.classList) return
     const badge = event.target.classList && event.target.classList.contains('badge') ? event.target : event.target.closest('.badge') || null
     // const badge = event.target || null
-    console.log(badge)
     if(!badge) return
 
 
@@ -39,6 +37,12 @@ export function initDragEls() {
           event.target.style.cursor = 'copy'
         }
     }) */
+
+    document.addEventListener('drop', event => {
+        ev.preventDefault()
+        event.dataTransfer.dropEffect = 'move'
+        event.target.style.cursor = 'move'
+    })
 
   })
 
