@@ -38,6 +38,20 @@
     .col {
         width: 50%;
     }
+    .promo__slide-title {
+        font-size: 30px;
+        right: 10%;
+    }
+    .promo__buttons {
+        flex-direction: row;
+    }
+    .promo .slider__buttons {
+        bottom: 50px;
+        left: 50px;
+    }
+    .slider__button {
+        font-size: 40px;
+    }
 }
 @media(min-width: 992px) {
     .promo__title {
