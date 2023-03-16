@@ -1,0 +1,90 @@
+@import url('./iconfont-animation.css');
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/iconfont.woff2?11176276') format('woff2'),
+       url('../fonts/iconfont.woff?11176276') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-chat:before { content: '\e800'; } /* '' */
+.icon-mail:before { content: '\e801'; } /* '' */
+.icon-phone-circle:before { content: '\e802'; } /* '' */
+.icon-angle-down:before { content: '\e803'; } /* '' */
+.icon-angle-left:before { content: '\e804'; } /* '' */
+.icon-angle-right:before { content: '\e805'; } /* '' */
+.icon-angle-up:before { content: '\e806'; } /* '' */
+.icon-cross:before { content: '\e807'; } /* '' */
+.icon-loupe:before { content: '\e808'; } /* '' */
+.icon-upload:before { content: '\e809'; } /* '' */
+.icon-resize-full:before { content: '\e80a'; } /* '' */
+.icon-resize-small:before { content: '\e80b'; } /* '' */
+.icon-cog:before { content: '\e80c'; } /* '' */
+.icon-basket:before { content: '\e80d'; } /* '' */
+.icon-reload:before { content: '\e80e'; } /* '' */
+.icon-download:before { content: '\e80f'; } /* '' */
+.icon-bookmark:before { content: '\e810'; } /* '' */
+.icon-heart:before { content: '\e811'; } /* '' */
+.icon-heart-empty:before { content: '\e812'; } /* '' */
+.icon-star:before { content: '\e813'; } /* '' */
+.icon-star-empty:before { content: '\e814'; } /* '' */
+.icon-check:before { content: '\e815'; } /* '' */
+.icon-location:before { content: '\e816'; } /* '' */
+.icon-unlock:before { content: '\e817'; } /* '' */
+.icon-lock:before { content: '\e818'; } /* '' */
+.icon-th-list:before { content: '\e819'; } /* '' */
+.icon-attach:before { content: '\e81a'; } /* '' */
+.icon-eye:before { content: '\e81b'; } /* '' */
+.icon-eye-off:before { content: '\e81c'; } /* '' */
+.icon-spin:before { content: '\e834'; } /* '' */
+.icon-bookmark-empty:before { content: '\f097'; } /* '' */
+.icon-filter:before { content: '\f0b0'; } /* '' */
+.icon-menu:before { content: '\f0c9'; } /* '' */
+.icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-down:before { content: '\f175'; } /* '' */
+.icon-up:before { content: '\f176'; } /* '' */
+.icon-left:before { content: '\f177'; } /* '' */
+.icon-right:before { content: '\f178'; } /* '' */
+.icon-sliders:before { content: '\f1de'; } /* '' */
+.icon-calc:before { content: '\f1ec'; } /* '' */
+.icon-whatsapp:before { content: '\f232'; } /* '' */
+.icon-map-o:before { content: '\f278'; } /* '' */
+.icon-bag:before { content: '\f290'; } /* '' */
+.icon-user-circle-o:before { content: '\f2be'; } /* '' */
+.icon-telegram:before { content: '\f2c6'; } /* '' */
+.icon-facebook:before { content: '\f308'; } /* '' */
+.icon-comment:before { content: '\f4ac'; } /* '' */
