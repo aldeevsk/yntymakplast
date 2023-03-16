@@ -46,7 +46,14 @@
         <section class="section">
             <div class="container">
                 <h2 class="section__title">Виды систем</h2>
-                <div class="grid-4">
+                <div class="section__header">
+                    <div class="filter">
+                        <button class="button active" data-filter="all">Все</button>
+                        <button class="button" data-filter="pvc">ПВХ</button>
+                        <button class="button" data-filter="alum">Алюминий</button>
+                    </div>
+                </div>
+                <div class="grid-4" data-role="filter-list">
                     <a href="./single.html" class="card">
                         <div class="card__body">
                             <img src="./assets/images/services/win-production/pvc-win.jpg" alt="" class="card__image">
@@ -54,7 +61,7 @@
                         <div class="card__footer">
                             <h3 class="card__title">Окна ПВХ</h3>
                             <span class="card__price">от 3500 с/м<sup>2</sup></span>
-                            <span class="card__tag">изготовление</span>
+                            <span class="card__tag" data-tag="pvc">пластик</span>
                         </div>
                     </a>
                     <a href="./single.html" class="card">
@@ -64,7 +71,7 @@
                         <div class="card__footer">
                             <h3 class="card__title">Двери ПВХ</h3>
                             <span class="card__price">от 3500 с/м<sup>2</sup></span>
-                            <span class="card__tag">изготовление</span>
+                            <span class="card__tag" data-tag="pvc">пластик</span>
                         </div>
                     </a>
                     <a href="./single.html" class="card">
@@ -74,7 +81,7 @@
                         <div class="card__footer">
                             <h3 class="card__title">Окна алюминиевые т/с</h3>
                             <span class="card__price">от 3500 с/м<sup>2</sup></span>
-                            <span class="card__tag">изготовление</span>
+                            <span class="card__tag" data-tag="alum">алюминий</span>
                         </div>
                     </a>
                     <a href="./single.html" class="card">
@@ -84,7 +91,7 @@
                         <div class="card__footer">
                             <h3 class="card__title">Двери алюминиевые т/с</h3>
                             <span class="card__price">от 3500 с/м<sup>2</sup></span>
-                            <span class="card__tag">изготовление</span>
+                            <span class="card__tag" data-tag="alum">алюминий</span>
                         </div>
                     </a>
                     <a href="./single.html" class="card">
@@ -95,27 +102,29 @@
                         <div class="card__footer">
                             <h3 class="card__title">Окна алюминиевые х/с</h3>
                             <span class="card__price">от 3500 с/м<sup>2</sup></span>
-                            <span class="card__tag">изготовление</span>
+                            <span class="card__tag" data-tag="alum">алюминий</span>
                         </div>
                     </a>
                     <a href="./single.html" class="card">
                         <div class="card__body">
-                            <img src="./assets/images/services/win-production/al-doorcold.jpg" alt="" class="card__image">
+                            <img src="./assets/images/services/win-production/al-doorcold.jpg" alt=""
+                                class="card__image">
                         </div>
                         <div class="card__footer">
                             <h3 class="card__title">Двери алюминиевые х/с</h3>
                             <span class="card__price">от 3500 с/м<sup>2</sup></span>
-                            <span class="card__tag">изготовление</span>
+                            <span class="card__tag" data-tag="alum">алюминий</span>
                         </div>
                     </a>
                     <a href="./single.html" class="card">
                         <div class="card__body">
-                            <img src="./assets/images/services/win-production/al-facade.jpeg" alt="" class="card__image">
+                            <img src="./assets/images/services/win-production/al-facade.jpeg" alt=""
+                                class="card__image">
                         </div>
                         <div class="card__footer">
                             <h3 class="card__title">Фасадные системы</h3>
                             <span class="card__price">от 3500 с/м<sup>2</sup></span>
-                            <span class="card__tag">изготовление</span>
+                            <span class="card__tag" data-tag="alum">алюминий</span>
                         </div>
                     </a>
                     <a href="./single.html" class="card">
@@ -125,7 +134,7 @@
                         <div class="card__footer">
                             <h3 class="card__title">Алюминиевые перегодки</h3>
                             <span class="card__price">от 3500 с/м<sup>2</sup></span>
-                            <span class="card__tag">изготовление</span>
+                            <span class="card__tag" data-tag="alum">алюминий</span>
                         </div>
                     </a>
                 </div>
@@ -171,7 +180,7 @@
         </section>
     </main>
     <footer class="footer">
-        <span class="footer__copyryght">@copyright by yntymakplast</span>
+        <span class="footer__copyryght">@copyright by aldeevsk</span>
     </footer>
     <button class="scrolltop-button hidden"><i class="icon-up"></i></button>
 

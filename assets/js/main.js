@@ -4,6 +4,7 @@ import { setupScroll } from "./scroll.js"
 import { setupZoomer } from "./zoom.js"
 import { setupFilter } from "./filter.js";
 
+
 (function () {
     setupSliders()
     setupTogglers()
