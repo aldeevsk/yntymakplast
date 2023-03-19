@@ -226,6 +226,15 @@ main {
     flex-direction: column;
     align-items: center;
 }
+.fw-panel {
+    padding: 10px;
+    box-shadow: var(--shadow);
+    border-radius: var(--radius-sm);
+    -webkit-border-radius: var(--radius-sm);
+    -moz-border-radius: var(--radius-sm);
+    -ms-border-radius: var(--radius-sm);
+    -o-border-radius: var(--radius-sm);
+}
 .modal {
     position: fixed;
     z-index: 10;
