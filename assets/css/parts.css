@@ -99,6 +99,9 @@
     color: var(--primary-darken);
     backdrop-filter: blur(10px);
 }
+.promo__overtitle {
+    display: block;
+}
 .promo__slider {
     height: var(--height);
     width: 100%;
