@@ -100,7 +100,12 @@
     backdrop-filter: blur(10px);
 }
 .promo__overtitle {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.promo__title img {
+    height: 60px;
 }
 .promo__slider {
     height: var(--height);
