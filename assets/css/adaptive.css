@@ -42,6 +42,10 @@
         top: 0;
         bottom: unset;
     }
+    .nav__logo {
+        bottom: 0;
+        top: unset;
+    }
     main {
         padding-top: var(--header-h);
         padding-bottom: 0;

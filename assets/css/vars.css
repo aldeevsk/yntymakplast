@@ -16,6 +16,7 @@
     --danger: #d32f2f;
     --danger-opsy: rgba(220, 231, 117, 0.2);
     --header-h: 60px;
+    --bg-gradient: linear-gradient( 45deg, hsl(0deg 0% 100%) 0%, hsl(201deg 55% 96%) 11%, hsl(201deg 55% 92%) 22%, hsl(201deg 55% 87%) 33%, hsl(200deg 56% 83%) 44%, hsl(200deg 56% 79%) 56%, hsl(199deg 56% 74%) 67%, hsl(199deg 57% 70%) 78%, hsl(198deg 57% 65%) 89%, hsl(198deg 58% 60%) 100% );
 
     --radius: 8px;
     --radius-sm: 4px;
