@@ -464,3 +464,6 @@ button {
     justify-content: space-between;
     align-items: center;
 }
+.--align-top {
+    align-items: start;
+}

@@ -103,6 +103,10 @@
     position: relative;
     z-index: 1;
 }
+.promo__content.--align-top {
+    align-items: start;
+    padding-top: calc(var(--section-padding) * 3);
+}
 .promo__title {
     position: relative;
     width: max-content;
@@ -190,3 +194,4 @@
     object-fit: cover;
     object-position: top;
 }
+
