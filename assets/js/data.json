@@ -105,24 +105,17 @@
 
   "electric": [
     {
-      "id": 0,
-      "title": "Монтаж кабеля от 1.5мм до 4.0мм",
-      "image": "./assets/images/services/electric/cable-1.jpeg",
+      "id": 1,
+      "title": "Установка видеонаблюдения",
+      "image": "./assets/images/services/electric/vn.jpg",
       "price": "от 40 сом/м",
       "tag": "черновые"
     },
     {
-      "id": 1,
-      "title": "Монтаж кабеля от 6.0мм до 10мм",
-      "image": "./assets/images/services/electric/cable-2.jpg",
-      "price": "от 50 сом/м",
-      "tag": "черновые"
-    },
-    {
       "id": 2,
-      "title": "Монтаж кабеля от 16мм до 35мм",
+      "title": "Монтаж кабеля",
       "image": "./assets/images/services/electric/cable-3.jpg",
-      "price": "от 80 сом/м",
+      "price": "от 40 сом/м",
       "tag": "черновые"
     },
     {

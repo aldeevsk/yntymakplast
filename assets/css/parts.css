@@ -105,7 +105,7 @@
 }
 .promo__content.--align-top {
     align-items: start;
-    padding-top: calc(var(--section-padding) * 3);
+    padding-top: calc(var(--section-padding) * 5);
 }
 .promo__title {
     position: relative;
