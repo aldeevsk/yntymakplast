@@ -1,5 +1,5 @@
 :root {
-    --primary: #5CB1D4;
+    --primary: rgb(92, 177, 212);
     --primary-lighten: #A7D1E6;
     --primary-darken: #0277bd;
     --primary-opsy: rgba(92, 176, 212, 0.2);
