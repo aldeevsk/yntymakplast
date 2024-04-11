@@ -1,4 +1,27 @@
 {
+  "mosquito_nets": [
+    {
+      "id": 1,
+      "title": "Наружные москитные сетки",
+      "image": "./assets/images/services/moskquito-nets/external.jpg",
+      "price": "от 600 сом",
+      "tag": "москитные сетки"
+    },
+    {
+      "id": 2,
+      "title": "Внетренние москитные сетки",
+      "image": "./assets/images/services/moskquito-nets/internal.jpg",
+      "price": "от 700 сом",
+      "tag": "москитные сетки"
+    },
+    {
+      "id": 3,
+      "title": "Плиссе (раздвижные)",
+      "image": "./assets/images/services/moskquito-nets/plisse.jpg",
+      "price": "от 1000 сом",
+      "tag": "москитные сетки"
+    }
+  ],
   "win_repair": [
     {
       "id": 1,
