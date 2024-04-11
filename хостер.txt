@@ -1,0 +1,16 @@
+Информация о Хостинге
+Тарифный план: Стандарт
+Дата открытия: 2024-04-11
+Доменное имя: yntymakplast.kg
+
+Панель управления
+URL: https://mira.hoster.kg:1500/ispmgr
+Пользователь: user128851
+Пароль: eZ3HNDlOlvYv
+
+FTP доступ
+FTP пользователь: user128851
+FTP пароль: eZ3HNDlOlvYv
+
+Серверы Имён
+Серверы имён: ns9.hoster.kg. ns10.hoster.kg.
