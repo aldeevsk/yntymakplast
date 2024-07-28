@@ -190,11 +190,6 @@
       }
     }
 
-
-
-
-
-
     setupSliders()
     setupTogglers()
     setupScroll()
